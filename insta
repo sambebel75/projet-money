@@ -1,0 +1,551 @@
+# 🚀 Instagram UGC AI Machine — Édition Zéro Budget 2026
+
+> **Plan stratégique senior** pour transformer Instagram en machine d'acquisition B2B 100% automatisée, sans budget initial.
+>
+> Auteur du brief : Sam Belghit | Stack : 100% free tier | Niveau : Expert senior social media
+
+---
+
+## 🎯 Philosophie du nouveau plan
+
+Le plan d'origine avait deux problèmes majeurs :
+
+1. **Stack payante non scalable au démarrage** : HeyGen (29-89$/mois), ElevenLabs (22$/mois), Metricool (18-65$/mois), Make payant, ManyChat Pro… → **environ 200-400€/mois avant le premier euro encaissé.**
+2. **Pas de modèle de monétisation immédiat** : juste "vendre des services B2B" sans tunnel concret.
+
+Cette V2 corrige les deux : **stack 100% gratuite à 0€/mois**, et **3 leviers de monétisation activables dès la semaine 2**.
+
+---
+
+## 💰 Modèle de monétisation (le vrai sujet)
+
+### Les 4 leviers cumulables (du plus rapide au plus scalable)
+
+| Levier | Délai 1er € | Potentiel mensuel | Effort |
+|---|---|---|---|
+| **1. Affiliation outils IA** | 7-14 jours | 200-2000€ | Faible |
+| **2. Produits digitaux (PDF/templates)** | 14-30 jours | 500-5000€ | Moyen |
+| **3. Services UGC IA (DFY)** | 21-45 jours | 1500-10000€ | Élevé |
+| **4. Instagram Bonus / Reels Play** | 30-60 jours | 100-1500€ | Passif |
+
+### Levier 1 — Affiliation IA (cashflow immédiat)
+
+Programmes gratuits à rejoindre **aujourd'hui** :
+- **Systeme.io** : 60% commission récurrente à vie (tu connais déjà la plateforme)
+- **HeyGen** : 25% récurrent
+- **Notion** : 50% sur les premiers paiements
+- **Make** : 20% récurrent
+- **Canva Pro** : 30% sur abonnements annuels
+- **ElevenLabs** : 20% récurrent
+
+**Action** : 1 reel par semaine = 1 outil + lien affilié en bio (via Linktree gratuit).
+
+### Levier 2 — Produits digitaux
+
+Réutiliser ta logique "Kit Plan d'Intervention ERP" que tu maîtrises déjà sur Systeme.io. Idées de produits dérivés UGC :
+- "100 hooks viraux B2B testés" → 17€
+- "Pack 50 prompts ChatGPT pour scripts Reels" → 27€
+- "Template Notion UGC Content Engine" → 37€
+
+### Levier 3 — Services Done-For-You
+
+Après 30 jours d'autorité construite :
+- **Pack démarrage** (497€) : 12 reels IA + setup automation
+- **Mensuel** (997-1997€) : gestion + 30 reels/mois
+- **Premium** (2997€+) : infrastructure complète installée chez le client
+
+### Levier 4 — Monétisation native Instagram
+
+Conditions 2026 :
+- 10K followers + 100K vues/mois → éligibilité **Instagram Bonuses** (selon disponibilité par pays)
+- Marques sponsorisées dès **5K followers** avec engagement > 4%
+
+---
+
+## 🛠️ Nouvelle stack 100% gratuite
+
+| Fonction | Outil V1 (payant) | Outil V2 (gratuit) | Limite free tier |
+|---|---|---|---|
+| Brain IA | ChatGPT Plus | **Claude.ai + ChatGPT free + Gemini** | Rotation entre les 3 |
+| Workflow | Make payant | **Make Free** | 1 000 ops/mois, 2 scénarios actifs |
+| Backup workflow | n8n cloud | **n8n self-hosted** (Docker local) | Illimité |
+| Génération vidéo | HeyGen | **CapCut Desktop + voix IA gratuite** | Illimité |
+| Voix IA | ElevenLabs | **Edge-TTS (Microsoft) / TTSMaker** | Illimité, FR/EN excellents |
+| Génération image | Midjourney | **Flux Schnell sur HuggingFace / Bing Image Creator / Leonardo Free** | 150 img/jour Leonardo |
+| Montage auto | CapCut Pro | **CapCut Free + templates** | Illimité |
+| Sous-titres | Captions | **CapCut auto-captions + Whisper local** | Illimité |
+| Publication multi | Metricool | **Meta Business Suite + Buffer Free** | 3 comptes, 10 posts en file |
+| CRM | Notion | **Notion Free** | Illimité perso |
+| DM automation | ManyChat Pro | **ManyChat Free + Instagram réponses auto natives** | 1000 contacts |
+| Base contenu | Airtable | **Notion Database** | Illimité |
+| Scraping | Apify payant | **Apify Free tier + RSS feeds** | 5$ crédits/mois offerts |
+| Analytics | Sheets payant | **Instagram Insights + Google Sheets** | Gratuit total |
+| **TOTAL** | **~400€/mois** | **0€/mois** | — |
+
+---
+
+## 🏗️ Architecture optimisée (sans HeyGen)
+
+Le pivot majeur : **on remplace les avatars HeyGen (chers) par 3 formats UGC IA gratuits qui performent mieux sur Instagram en 2026** :
+
+### Format A — "Faceless Voice-Over" (60% du contenu)
+- Voix IA Edge-TTS (qualité native Microsoft Azure, gratuit)
+- B-roll IA généré (Flux Schnell ou Pexels API gratuite)
+- Sous-titres animés CapCut
+- **C'est exactement ton format actuel, parfait pour ta préférence "no camera"**
+
+### Format B — "Carrousel Animé" (30% du contenu)
+- 8-10 slides Canva
+- Conversion en vidéo verticale CapCut
+- Voix off optionnelle
+- **Taux de save 3x supérieur aux reels classiques**
+
+### Format C — "Text Reels" (10% du contenu)
+- 100% texte animé sur fond visuel
+- Plus rapide à produire (5 min)
+- Idéal pour citations/punchlines
+
+---
+
+## 📅 ROADMAP RÉVISÉE — 30 JOURS
+
+### Semaine 1 — Foundation (objectif : 1er reel publié J+3)
+
+**J1-J2 : Setup infrastructure**
+- Créer compte Instagram Business "Sam Securite ERP" (déjà fait ✅)
+- Connecter à Meta Business Suite
+- Créer base Notion "Content Engine" (template fourni dans le code)
+- Installer Make scenario v1 (1 seul scénario pour tenir dans free tier)
+
+**J3-J5 : Premier contenu**
+- 5 hooks testés générés via Claude/GPT
+- 3 reels format Voice-Over produits
+- Programmation Buffer pour J6, J8, J10
+
+**J6-J7 : Affiliation**
+- Inscription Systeme.io affiliés
+- Setup Linktree avec 3 liens : produit ERP + 2 affiliations
+- 1ère story produit
+
+### Semaine 2 — Automation (objectif : pipeline auto fonctionnel)
+
+- Workflow Make complet : Notion → GPT/Claude → CapCut script → Notion update
+- Réponses DM automatiques natives Instagram (mot-clé "AUDIT" / "KIT")
+- 2 reels/jour publiés en automatique
+- 1ère DM séquence ManyChat
+
+### Semaine 3 — Monétisation (objectif : 1ères ventes)
+
+- Lancement offre tripwire 7€ (extrait du kit ERP en mini-produit)
+- Reels de social proof
+- Outreach DM manuel 10 prospects/jour (15 min, copier-coller depuis Notion)
+
+### Semaine 4 — Scaling (objectif : 1 client DFY)
+
+- Lancement service "Pack démarrage UGC ERP" à 497€
+- Webinar enregistré (Loom gratuit) en téléchargement contre email
+- A/B test 5 variantes de hooks
+
+---
+
+## 🧠 Prompts senior optimisés 2026
+
+### Prompt master "Hook Machine"
+
+```text
+Tu es un expert TikTok/Instagram avec 10 ans d'expérience dans le copywriting B2B.
+
+Mission : générer 30 hooks pour Instagram Reels niche [SÉCURITÉ INCENDIE ERP / PROFESSIONNELS].
+
+Contraintes 2026 :
+- Maximum 7 mots
+- Pattern interrupt obligatoire (chiffre choc, contradiction, ou question taboue)
+- 3 catégories : autorité (10), curiosité (10), urgence (10)
+- Pas de clichés "Voici 5 secrets" / "Personne ne te dit"
+- Adaptés au français de France
+- Tutoiement direct
+- Ton : pro mais accessible, jamais corporate
+
+Format de sortie :
+| # | Hook | Catégorie | Émotion ciblée |
+
+Bonus : pour les 3 meilleurs, propose le visuel de la première frame.
+```
+
+### Prompt master "Script 25 secondes"
+
+```text
+Rôle : scénariste Instagram Reels senior, spécialisé conversion B2B.
+
+Crée un script Reel 25 secondes pour :
+- Hook : [INSÉRER HOOK]
+- Niche : sécurité incendie ERP / restaurateurs / petits commerces
+- Objectif : DM "KIT" pour récupérer le lead magnet
+- Format : voice-over sans caméra
+- Audience : gérants 30-55 ans, peu de temps, allergiques au jargon
+
+Structure imposée :
+0-2s : Hook (1 phrase max)
+2-7s : Problème concret (avec chiffre ou exemple)
+7-18s : Solution en 3 points numérotés
+18-22s : Bénéfice / transformation
+22-25s : CTA "Commente KIT en dessous"
+
+Livre aussi :
+- 3 idées de B-roll par segment (descriptions visuelles)
+- Caption Instagram optimisée SEO (180 chars max)
+- 8 hashtags (mix gros volume + niche)
+- Suggestion de musique trending FR
+```
+
+### Prompt master "DM Qualifier"
+
+```text
+Tu es Sam, expert sécurité incendie ERP, chaleureux et direct.
+
+Un prospect vient de commenter "KIT" sous un reel.
+
+Génère une séquence DM en 4 étapes avec branchements conditionnels :
+
+1. Welcome (envoie le lien + qualifie le type d'établissement)
+2. Diagnostic (3 questions max selon le type)
+3. Pivot (oriente vers le kit 19€ OU vers un audit visio gratuit selon les réponses)
+4. Closing (CTA clair, max 1 émoji)
+
+Règles :
+- Ton humain, jamais bot
+- Pas de "Bonjour cher prospect"
+- Phrases courtes (max 15 mots)
+- Une seule question par message
+- Toujours laisser une porte ouverte si pas mûr
+```
+
+---
+
+## 🎬 Workflow Make.com gratuit (1 scénario, 1000 ops/mois)
+
+Astuce free tier : **un seul scénario qui fait tout**, déclenché manuellement ou par schedule.
+
+```
+Schedule (1x/jour) 
+  → Notion (récupère 1 ligne "À produire") 
+  → OpenAI/Claude (génère script + caption + hashtags)
+  → Notion (update statut "Script prêt")
+  → Email/Telegram notification toi
+```
+
+Tu fais le montage CapCut manuel (10 min/reel) puis :
+
+```
+Toggle Notion "Monté" 
+  → Make scenario 2 (à activer manuellement) 
+  → Buffer API 
+  → Programmation auto
+```
+
+**Conso estimée** : 30 ops × 30 jours = 900 ops/mois → reste sous les 1000 gratuits ✅
+
+---
+
+## 📊 KPIs réalistes mois 1-3
+
+| KPI | M1 | M2 | M3 |
+|---|---|---|---|
+| Followers | 200-500 | 800-1500 | 2000-4000 |
+| Reels publiés | 30 | 60 | 90 |
+| Vues totales | 15k-50k | 80k-200k | 300k-800k |
+| DMs reçus | 20-50 | 80-150 | 200-400 |
+| Ventes kit 19€ | 2-5 | 8-15 | 20-40 |
+| Clients DFY | 0 | 0-1 | 1-3 |
+| **CA mensuel** | **40-100€** | **300-800€** | **1500-4500€** |
+
+---
+
+## 🧨 Effet réseau gratuit (le hack)
+
+Le plan original parlait de "10 comptes workers" → coûteux et risqué (shadowban).
+
+**V2 : Engagement Pod manuel + IA**
+- Rejoindre 3-5 groupes Telegram "Instagram engagement pods FR"
+- Setup script Python (fourni dans le code) qui te notifie quand poster pour matcher les autres
+- Engager 15 min/jour sur 20 comptes de la niche → Instagram boost ta portée
+
+---
+
+## 💎 Bonus expert : les 5 trucs que personne ne dit
+
+1. **Le format Reel "carrousel vidéo"** (multi-clips même reel) a 40% plus de portée en 2026
+2. **Publier entre 20h-22h en France** : meilleur reach pour audience B2B (ils scrollent le soir)
+3. **Le "Save rate" > Like rate** : optimise pour la sauvegarde, pas le like
+4. **3 premiers commentaires = signal fort** : utilise un bot ManyChat pour répondre toi-même en 1er
+5. **Cross-post délayé** : même reel sur TikTok 48h après Instagram = +30% portée sans pénalité
+
+---
+
+# 🤖 CODE CLAUDE CODE — DÉPLOIEMENT AUTOMATIQUE
+
+Copie-colle ce prompt dans Claude Code dans un nouveau dossier vide. Il va créer toute la structure projet, les templates, les scripts d'automation et les configurations.
+
+```bash
+# Lance Claude Code dans ton dossier vide :
+# cd ~/Documents/instagram-automation
+# claude-code
+```
+
+Puis colle le prompt ci-dessous :
+
+````text
+Tu es un expert senior en automation Instagram et infrastructure no-code.
+
+Crée pour moi (Sam, micro-entrepreneur "Sam Securite ERP", niche sécurité incendie ERP, basé à Créteil, France) un projet complet d'automatisation Instagram zéro budget.
+
+## STRUCTURE PROJET À CRÉER
+
+```
+instagram-automation/
+├── README.md
+├── .env.example
+├── requirements.txt
+├── package.json
+│
+├── 01_content_engine/
+│   ├── prompts/
+│   │   ├── hook_generator.md
+│   │   ├── script_25s.md
+│   │   ├── caption_seo.md
+│   │   ├── dm_qualifier.md
+│   │   └── hashtag_strategist.md
+│   ├── templates/
+│   │   ├── notion_database_schema.json
+│   │   ├── content_calendar.csv
+│   │   └── reel_storyboard_template.md
+│   └── content_generator.py
+│
+├── 02_automation/
+│   ├── make_scenarios/
+│   │   ├── scenario_1_script_generation.json
+│   │   └── scenario_2_publishing.json
+│   ├── n8n_workflows/
+│   │   └── content_pipeline.json
+│   └── manychat_flows/
+│       ├── flow_kit_keyword.md
+│       └── flow_audit_keyword.md
+│
+├── 03_video_production/
+│   ├── tts_generator.py          # Edge-TTS gratuit pour voix FR
+│   ├── subtitle_generator.py     # Whisper local
+│   ├── capcut_templates/
+│   │   ├── voice_over_template.md
+│   │   ├── carousel_animated.md
+│   │   └── text_reel.md
+│   └── b_roll_sources.md
+│
+├── 04_publishing/
+│   ├── buffer_setup.md
+│   ├── meta_business_suite_config.md
+│   ├── posting_schedule.csv
+│   └── cross_posting_strategy.md
+│
+├── 05_monetization/
+│   ├── affiliate_programs.md
+│   ├── digital_products/
+│   │   ├── product_1_hooks_pack.md
+│   │   ├── product_2_prompts_pack.md
+│   │   └── product_3_notion_template.md
+│   ├── dfy_services/
+│   │   ├── pack_demarrage_497.md
+│   │   ├── pack_mensuel_997.md
+│   │   └── pack_premium_2997.md
+│   └── pricing_strategy.md
+│
+├── 06_dm_outreach/
+│   ├── dm_templates_5_variantes.md
+│   ├── prospect_list_template.csv
+│   └── follow_up_sequences.md
+│
+├── 07_analytics/
+│   ├── kpi_dashboard.md
+│   ├── google_sheets_template.md
+│   └── weekly_review_template.md
+│
+└── 08_scripts/
+    ├── trend_scraper.py          # RSS + scraping gratuit
+    ├── engagement_pod_helper.py
+    ├── hashtag_researcher.py
+    └── batch_content_generator.py
+```
+
+## CONTENU À GÉNÉRER POUR CHAQUE FICHIER
+
+### README.md
+- Vue d'ensemble du projet
+- Stack technique 100% gratuite avec liens d'inscription
+- Quick start en 7 étapes
+- Roadmap 30 jours
+
+### .env.example
+Variables nécessaires :
+- OPENAI_API_KEY (ou ANTHROPIC_API_KEY)
+- NOTION_TOKEN (format secret_)
+- NOTION_DATABASE_ID
+- BUFFER_ACCESS_TOKEN
+- INSTAGRAM_BUSINESS_ID
+
+### requirements.txt
+Dépendances Python minimales :
+- edge-tts
+- openai-whisper
+- requests
+- python-dotenv
+- notion-client
+- pillow
+- moviepy
+
+### 01_content_engine/prompts/
+Crée 5 fichiers .md avec les prompts experts pour :
+1. Génération de hooks viraux B2B sécurité incendie (30 hooks par batch)
+2. Script Reel 25 secondes format voice-over
+3. Caption Instagram SEO optimisée (max 2200 chars, structure AIDA)
+4. Séquence DM qualification (4 étapes avec branchements)
+5. Stratégie hashtags 2026 (mix volume/niche/intention)
+
+Chaque prompt doit être :
+- En français
+- Ultra spécifique à la niche sécurité incendie ERP
+- Avec variables {{VARIABLE}} à remplacer
+- Avec exemples concrets
+
+### 01_content_engine/templates/notion_database_schema.json
+Structure complète pour base Notion "Content Engine" avec propriétés :
+- Title (titre du reel)
+- Status (Idée / Script / Monté / Programmé / Publié / Analysé)
+- Hook (text)
+- Script (long text)
+- Caption (long text)
+- Hashtags (multi-select)
+- Format (Voice-Over / Carousel / Text Reel)
+- Date publication (date)
+- Vues / Likes / Saves / DMs (number)
+- CTA type (KIT / AUDIT / DM)
+- Performance score (formula)
+
+### 01_content_engine/content_generator.py
+Script Python qui :
+1. Lit la base Notion
+2. Récupère les lignes "Idée"
+3. Appelle l'API Claude/OpenAI avec les prompts
+4. Update Notion avec script + caption + hashtags
+5. Logue les opérations
+6. Respecte rate limits free tier
+
+### 03_video_production/tts_generator.py
+Script qui utilise edge-tts pour générer de la voix FR de qualité :
+- Voix : fr-FR-DeniseNeural (féminine) et fr-FR-HenriNeural (masculine)
+- Vitesse ajustable
+- Export MP3
+- Batch processing depuis Notion
+
+### 03_video_production/subtitle_generator.py
+Whisper local pour générer fichiers .srt depuis audio :
+- Modèle "small" (équilibre qualité/vitesse)
+- Format compatible CapCut
+- Auto-formatage 2 lignes max
+
+### 05_monetization/affiliate_programs.md
+Liste détaillée des 10 meilleurs programmes affiliés pour la niche :
+- Systeme.io, Notion, Make, Canva, etc.
+- Commission, conditions, lien d'inscription
+- Idée de reel pour promouvoir chacun
+
+### 05_monetization/digital_products/
+3 fichiers détaillant chaque produit :
+- Promesse, structure, prix, tunnel de vente
+- Réutilise l'infrastructure Systeme.io existante de Sam
+
+### 05_monetization/dfy_services/
+3 fichiers détaillant chaque offre service :
+- Description, livrables, prix, durée, process
+- Pack démarrage 497€ : 12 reels + setup
+- Pack mensuel 997€ : 30 reels/mois + community management
+- Pack premium 2997€ : infrastructure complète
+
+### 06_dm_outreach/dm_templates_5_variantes.md
+5 séquences DM testées pour outreach à froid :
+- Variante "Compliment + Question"
+- Variante "Statistique choc"
+- Variante "Audit gratuit"
+- Variante "Cas client"
+- Variante "Question ouverte"
+Chaque variante en 4 messages avec timing
+
+### 07_analytics/kpi_dashboard.md
+Template Google Sheets avec :
+- Onglet "Daily" (vues, DMs, ventes)
+- Onglet "Content" (performance par reel)
+- Onglet "Revenue" (CA par source)
+- Formules pré-faites
+- Objectifs M1/M2/M3
+
+### 08_scripts/trend_scraper.py
+Script qui scrape gratuitement :
+- RSS feeds de blogs sécurité incendie
+- Reddit r/Entrepreneur, r/smallbusiness
+- Génère 10 idées de contenus/jour
+- Export dans Notion
+
+### 08_scripts/hashtag_researcher.py
+Outil qui suggère hashtags optimisés :
+- Mix 3 gros (>500k posts) / 4 moyens (50-500k) / 3 niches (<50k)
+- Vérifie qu'aucun n'est shadowban (liste maintenue)
+- Adapté à chaque post
+
+## CONTRAINTES IMPORTANTES
+
+1. **Tout en français** sauf les noms de fichiers techniques
+2. **Zéro dépendance payante** dans tous les scripts
+3. **Code Python 3.10+** propre, commenté, avec gestion d'erreurs
+4. **Markdown bien structuré** avec emojis pour la navigation
+5. **Exemples concrets** spécifiques à la niche "sécurité incendie ERP" partout
+6. **Pas de placeholder vide** : chaque fichier doit être directement utilisable
+7. **Variables d'environnement** pour toutes les clés API
+8. **Logs clairs** dans tous les scripts Python
+
+## ORDRE D'EXÉCUTION
+
+1. Crée d'abord la structure de dossiers complète
+2. README.md et .env.example en priorité
+3. Puis les prompts (01_content_engine/prompts/)
+4. Puis les templates Notion
+5. Puis les scripts Python (en commençant par tts_generator.py qui est le plus critique)
+6. Puis le contenu monétisation
+7. Termine par les analytics
+
+À la fin, génère un récapitulatif des prochaines actions concrètes pour Sam (checklist J1 à J7).
+
+GO !
+````
+
+---
+
+## ✅ Checklist pour toi avant de lancer Claude Code
+
+- [ ] Créer un dossier vide `~/Documents/instagram-automation`
+- [ ] Avoir Python 3.10+ installé (`python3 --version`)
+- [ ] Avoir Node.js 18+ installé (`node --version`)
+- [ ] Créer les comptes gratuits : Notion, Buffer, Make, Systeme.io affiliés
+- [ ] Récupérer ta clé API Anthropic ou OpenAI (gratuit avec crédits offerts)
+- [ ] Lancer Claude Code dans le dossier et coller le prompt ci-dessus
+
+---
+
+## 🎁 Bonus : 3 reels à produire en priorité semaine 1
+
+1. **"3 erreurs qui font fermer un restaurant"** (tu l'as déjà écrit ✅) — CTA "KIT"
+2. **"Le truc que ton commission de sécurité ne te dira jamais"** — CTA "AUDIT"
+3. **"Pourquoi 80% des petits ERP sont hors-norme sans le savoir"** — CTA "KIT"
+
+Ces 3 reels = 1ère vague de DMs garantie pour valider le tunnel avant de scaler.
+
+---
+
+**Prêt à lancer.** Le code Claude Code va te construire l'intégralité de l'infrastructure en 10-15 minutes. Tu auras ensuite J1 à J7 de setup et J8 → publication automatique quotidienne.
