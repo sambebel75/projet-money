@@ -1,0 +1,193 @@
+{
+  "name": "Content Engine Database",
+  "description": "Base de données Notion pour gérer le pipeline de contenu Instagram UGC AI",
+  "properties": {
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": {}
+    },
+    "Status": {
+      "id": "status",
+      "type": "select",
+      "select": {
+        "options": [
+          {"name": "💡 Idée", "color": "gray"},
+          {"name": "📝 Script", "color": "blue"},
+          {"name": "🎬 Monté", "color": "purple"},
+          {"name": "📅 Programmé", "color": "yellow"},
+          {"name": "✅ Publié", "color": "green"},
+          {"name": "📊 Analysé", "color": "red"}
+        ]
+      }
+    },
+    "Hook": {
+      "id": "hook",
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "Script": {
+      "id": "script",
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "Caption": {
+      "id": "caption",
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "Hashtags": {
+      "id": "hashtags",
+      "type": "multi_select",
+      "multi_select": {
+        "options": [
+          {"name": "#securiteincendie", "color": "red"},
+          {"name": "#erp", "color": "orange"},
+          {"name": "#restaurant", "color": "yellow"},
+          {"name": "#normeincendie", "color": "green"},
+          {"name": "#extincteur", "color": "blue"}
+        ]
+      }
+    },
+    "Format": {
+      "id": "format",
+      "type": "select",
+      "select": {
+        "options": [
+          {"name": "🎙️ Voice-Over", "color": "blue"},
+          {"name": "📊 Carrousel", "color": "purple"},
+          {"name": "📝 Text Reel", "color": "pink"}
+        ]
+      }
+    },
+    "Date publication": {
+      "id": "pub_date",
+      "type": "date",
+      "date": {}
+    },
+    "Vues": {
+      "id": "views",
+      "type": "number",
+      "number": {"format": "number"}
+    },
+    "Likes": {
+      "id": "likes",
+      "type": "number",
+      "number": {"format": "number"}
+    },
+    "Saves": {
+      "id": "saves",
+      "type": "number",
+      "number": {"format": "number"}
+    },
+    "DMs générés": {
+      "id": "dms",
+      "type": "number",
+      "number": {"format": "number"}
+    },
+    "CTA type": {
+      "id": "cta",
+      "type": "select",
+      "select": {
+        "options": [
+          {"name": "KIT", "color": "green"},
+          {"name": "AUDIT", "color": "blue"},
+          {"name": "CHECKLIST", "color": "yellow"},
+          {"name": "DM", "color": "purple"},
+          {"name": "LINK", "color": "gray"}
+        ]
+      }
+    },
+    "Performance Score": {
+      "id": "perf_score",
+      "type": "formula",
+      "formula": {
+        "expression": "if(prop(\"Vues\") == 0, 0, (prop(\"Likes\") / prop(\"Vues\") * 100 + prop(\"Saves\") / prop(\"Vues\") * 200 + prop(\"DMs générés\") / prop(\"Vues\") * 500))"
+      }
+    },
+    "Sujet": {
+      "id": "topic",
+      "type": "select",
+      "select": {
+        "options": [
+          {"name": "Extincteurs", "color": "red"},
+          {"name": "Réglementation", "color": "blue"},
+          {"name": "Contrôle/Commission", "color": "orange"},
+          {"name": "Assurance", "color": "purple"},
+          {"name": "Désenfumage", "color": "gray"},
+          {"name": "Alarmes", "color": "yellow"},
+          {"name": "Évacuation", "color": "green"},
+          {"name": "Formation", "color": "pink"}
+        ]
+      }
+    },
+    "Lien vidéo": {
+      "id": "video_url",
+      "type": "url",
+      "url": {}
+    },
+    "Notes": {
+      "id": "notes",
+      "type": "rich_text",
+      "rich_text": {}
+    }
+  },
+  "views": [
+    {
+      "name": "📋 Pipeline complet",
+      "type": "table",
+      "filter": {
+        "property": "Status",
+        "select": {
+          "is_not_empty": true
+        }
+      },
+      "sorts": [
+        {
+          "property": "Date publication",
+          "direction": "descending"
+        }
+      ]
+    },
+    {
+      "name": "💡 Idées à traiter",
+      "type": "board",
+      "group_by": "Sujet",
+      "filter": {
+        "property": "Status",
+        "select": {
+          "equals": "💡 Idée"
+        }
+      }
+    },
+    {
+      "name": "📅 Calendrier éditorial",
+      "type": "calendar",
+      "date_property": "Date publication"
+    },
+    {
+      "name": "🏆 Meilleures performances",
+      "type": "table",
+      "sorts": [
+        {
+          "property": "Performance Score",
+          "direction": "descending"
+        }
+      ],
+      "filter": {
+        "property": "Status",
+        "select": {
+          "equals": "📊 Analysé"
+        }
+      }
+    }
+  ],
+  "setup_instructions": {
+    "step_1": "Créer une nouvelle page Notion vide",
+    "step_2": "Ajouter une base de données 'Table'",
+    "step_3": "Copier-coller chaque propriété du schema ci-dessus",
+    "step_4": "Créer les 4 vues personnalisées",
+    "step_5": "Partager la base avec l'intégration Notion API (pour automation)",
+    "step_6": "Noter le Database ID dans .env (NOTION_DATABASE_ID)"
+  }
+}
